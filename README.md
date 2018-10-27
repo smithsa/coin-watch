@@ -1,8 +1,6 @@
 # Coin Watch
 Coin Watch is an Alexa Skill built with Python. It gives the realtime current USD price of the top cryptocurrencies using the cryptocompare API. The skill was built with AWS Lambda and utlizes CryptoCompare. 
 
-[View Demo](https://youtu.be/G2bXDq3MGb4)
-
 ## Prerequisites
 *  [AWS Account](https://aws.amazon.com/getting-started/) - You will need to use [Lambda](https://aws.amazon.com/lambda/), [DynamoDB](https://aws.amazon.com/dynamodb/), and access to the [Alexa Skills Kit Developer Console](https://developer.amazon.com/alexa/console/ask)
 
@@ -40,22 +38,13 @@ git clone git@github.com:smithsa/feelings-with-ziggy.git
 
 ## Usage
 
-You can test and run the skill through the command line or the Alexa Skills Kit Developer Console.
-
-**Command Line**
-
-Run the command below. For more information on this command refer to Alexa's [Simulate Command Documentaiton](https://developer.amazon.com/docs/smapi/ask-cli-command-reference.html#simulate-command)
-```
-ask simulate -t [insert command here]
-```
+You can test and run the skill through the Alexa Skills Kit Developer Console.
 
 **Alexa Skills Kit Developer Console**
 
 You can navigate to the [Alexa Skills Kit Developer Console](https://developer.amazon.com/alexa/console/ask). Select the skill you are workig on, and select the "Test" tab menu item at the top of the page. You can open the skill by typing "open [your skill name]." You can enter any other commands as well.
 
 Refer to Amazon's [Alexa Skills Kit Developer Console: Test](https://www.youtube.com/watch?v=lYImJ2H__BY) video from more instruction on how to test withing the console.
-
-To understand the commands you can give the skill watch the [view demo](https://youtu.be/G2bXDq3MGb4).
 
 ## Built With
 *  [ASK SDK Python](https://github.com/alexa/alexa-skills-kit-sdk-for-python)
