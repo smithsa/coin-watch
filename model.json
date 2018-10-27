@@ -1,0 +1,250 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "coin watch",
+            "intents": [
+                {
+                    "name": "GetCoinPrices",
+                    "slots": [
+                        {
+                            "name": "ReportLanguage",
+                            "type": "REPORT_LANGUAGE"
+                        }
+                    ],
+                    "samples": [
+                        "give me a {ReportLanguage}",
+                        "give me {ReportLanguage}",
+                        "get me a {ReportLanguage}",
+                        "get me {ReportLanguage}",
+                        "report {ReportLanguage}"
+                    ]
+                },
+                {
+                    "name": "GetValidCurrencies",
+                    "slots": [
+                        {
+                            "name": "ValidLanguage",
+                            "type": "VALID_COINS_LANGUAGE"
+                        }
+                    ],
+                    "samples": [
+                        "what are the {ValidLanguage}",
+                        "what are {ValidLanguage}",
+                        "what {ValidLanguage} can I use",
+                        "what {ValidLanguage} can I get",
+                        "what {ValidLanguage} can I use",
+                        "what {ValidLanguage} can I get",
+                        "what {ValidLanguage} can I get the price of",
+                        "what {ValidLanguage} can I get the price of"
+                    ]
+                },
+                {
+                    "name": "GetSpecificPrice",
+                    "slots": [
+                        {
+                            "name": "CryptoPrice",
+                            "type": "COIN_CURRENCIES"
+                        }
+                    ],
+                    "samples": [
+                        "what is the price of {CryptoPrice}",
+                        "what's the price of {CryptoPrice}",
+                        "give the price of {CryptoPrice}",
+                        "give me the price of {CryptoPrice}",
+                        "get me the price of {CryptoPrice}",
+                        "get the price of {CryptoPrice}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "EndSesssion",
+                    "slots": [],
+                    "samples": [
+                        "cancel",
+                        "cancel stop nevermind",
+                        "nevermind",
+                        "stop",
+                        "stop cancel",
+                        "exit",
+                        "I'm done",
+                        "I'm finshed",
+                        "done",
+                        "finished",
+                        "stop cancel exit",
+                        "stop exit",
+                        "cancel exit"
+                    ]
+                },
+                {
+                    "name": "IntentNotKnown",
+                    "slots": [],
+                    "samples": [
+                        "what is",
+                        "what is the",
+                        "when is",
+                        "when is the",
+                        "where is",
+                        "where is the",
+                        "what",
+                        "what are",
+                        "why are",
+                        "where",
+                        "when",
+                        "why",
+                        "why is",
+                        "whose",
+                        "do",
+                        "you",
+                        "sdfsdf dfdsfs",
+                        "asdsd dfsfsflg",
+                        "blah blah",
+                        "blah"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "COIN_CURRENCIES",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "ethereum"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ethereum classic"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bitcoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "litecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ripple"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "bytecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "monero"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dogecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "dash"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "stellar lumens"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "augur"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "golem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "steem"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "maidsafecoin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "gamecredits"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "REPORT_LANGUAGE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "report"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a report"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coin report"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "a coin report"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coin prices"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "VALID_COINS_LANGUAGE",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "valid coins"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coin"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "coins"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
