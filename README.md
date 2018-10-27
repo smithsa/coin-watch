@@ -1,5 +1,5 @@
 # Coin Watch
-Coin Watch is an Alexa Skill built with Python. It gives the realtime current USD price of the top cryptocurrencies using the cryptocompare API. The skill was built with AWS Lambda and utlizes CryptoCompare. 
+Coin Watch is an Alexa Skill built with Python. It gives the realtime current USD price of the top cryptocurrencies using the cryptocompare API. The skill was built with AWS Lambda and utlizes [CryptoCompare](https://min-api.cryptocompare.com). 
 
 ## Prerequisites
 *  [AWS Account](https://aws.amazon.com/getting-started/) - You will need to use [Lambda](https://aws.amazon.com/lambda/), [DynamoDB](https://aws.amazon.com/dynamodb/), and access to the [Alexa Skills Kit Developer Console](https://developer.amazon.com/alexa/console/ask)
